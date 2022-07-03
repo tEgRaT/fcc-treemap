@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import TreeMap from 'react-d3-treemap';
 import 'react-d3-treemap/dist/react.d3.treemap.css';
@@ -606,11 +606,14 @@ const data = {
 function App() {
   return (
     <div className="App">
+      <h1 id="title">Video Game Sales</h1>
+      <h3 id="description">Top 100 Most Sold Video Games Grouped by Platform</h3>
       <TreeMap
         height={500}
         width={800}
         data={data}
-        valueUnit={"MB"}
+        // valueUnit={"MB"}
+        className="tile"
       />
     </div>
   );
