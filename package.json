@@ -1,5 +1,6 @@
 {
   "name": "fcc-treemap",
+  "homepage": "https://tegrat.github.io/fcc-treemap/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
